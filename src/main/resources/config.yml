@@ -1,0 +1,22 @@
+# How long should the server wait after no players, should it decide that players cannot join
+# and that the server has crashed.
+# Time is in minutes
+MinutesNoPlayers: 2
+
+# How long should the server wait after dumping threads to dump again. Time is in minutes
+MinutesBetweenThreadDumps: 2
+
+# Should the threads dump after each expiry period, or only new freezes of the server
+SituationChangeOnly: true
+
+# How often should the plugin wait between checks, time is in seconds
+SecondsBetweenChecks: 10
+
+# How long should the server wait before determining that it can't determine if players are online, time is in seconds
+SecondsWaitForBukkit: 20
+
+# Where should the plugin save the thread dump
+DumpFileLocation: 'logs/thread-dumps.log'
+
+# Sleep period before plugin operation begins, namely used for players slowly joining
+MinutesStartupPeriod: 10

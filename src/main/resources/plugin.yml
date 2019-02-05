@@ -1,0 +1,5 @@
+api-version: 1.13
+main: me.libraryaddict.threaddump.DumpPlugin
+name: ThreadDump
+version: 1.0
+author: libraryaddict
